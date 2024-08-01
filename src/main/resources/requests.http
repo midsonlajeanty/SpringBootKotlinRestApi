@@ -1,0 +1,14 @@
+### Post "Hello!"
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "Hello! All.... Sak Pase"
+}
+
+
+### Get all the messages
+GET http://localhost:8080/
+
+### Get the message by its id
+GET http://localhost:8080/5a9fafd6-c8f5-4468-a91d-57c6055b5a14
