@@ -35,8 +35,6 @@ class MessageService(private val db: MessageRepository) {
 	fun save(message: Message): Message {
 		return db.save(message)
 	}
-
-//	fun <T : Any> Optional<out T>.toList(): List<T> = if (isPresent) listOf(get()) else emptyList()
 }
 
 
